@@ -35,3 +35,19 @@
      }
 }
 
+@media screen and (min-width: 768px){
+    .site-container{
+        max-width: 608px;
+    }
+    .article-card{
+        display: grid;
+        grid-template-rows: 220px 1fr;
+    }
+}
+@media screen and (min-width: 1280px)
+{
+    .site-container{
+        max-width: 1156px;
+    }
+}
+
