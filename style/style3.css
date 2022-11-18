@@ -93,85 +93,10 @@ nav {
 
 
 
+/* BOBY*/
 
 
 
-
-
-
-
-/* CARD  */
-
-#fundo-card1{
-    padding-bottom: 10px;
-    
-
-}
-#fundo-card1 > h2{
-    font-family: 'Merriweather', serif;
-    color: #B20000;
-    text-align: center;
-    font-weight: 900;
-    font-size: 28px;
-    padding:11px;  
-}
-
-#fundo-card1 > p{
-    text-align: center;
-    font-family:'Merriweather', serif;
-    font-weight: 400;
-}
-
-.site-container{
-    margin: 2rem auto;
-    max-width: calc(100% - 80px);
-}
-.article-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
-    gap: 2rem;
-}
-.article-image{
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-.article-image img{
-    max-width: 100%;
-    height: auto;
-    border-radius: 20px 20px 0 0;
-}
-.article-card {
-    background: rgba(211, 211, 211, 0.518);
-    border-radius: 20px;
-    transition: 0.3s;
-}
-.article-card:hover {
-    box-shadow: 0 4px 20px 0 rgba(34,68,123,0.2);
-    cursor: pointer;
-}
-.article-content{
-    padding: 2rem;
-}
-.article-content .card-category {
-    font-size: 0.875rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    font-weight: 600;
-    color:#ff8800f5 ;
-    display: block;
-    text-decoration: none;
-}
-.article-content .card-title {
-    margin: 1rem 0;
-    color: rgba(0, 0, 0, 0.879);
-}
-.article-content .card-excerpt {
-    font-size: 1rem;
-    line-height: 1.5rem;
-    color: rgba(0, 0, 0, 0.805);
-    margin: 0;
-}
 
 /* FOOTER */
 

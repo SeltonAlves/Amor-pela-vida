@@ -1,6 +1,6 @@
 @charset "UFT-8";
 
-@media (max-width:767px){
+@media (max-width:768px){
     body{
         overflow-x: hidden;
     }
@@ -43,11 +43,52 @@
         display: grid;
         grid-template-rows: 220px 1fr;
     }
+    .picture > img{
+        width: 400px;
+        height: 380px;
+    }
 }
 @media screen and (min-width: 1280px)
 {
     .site-container{
         max-width: 1156px;
     }
+
+    .picture > img{
+        width: 400px;
+        height: 330px;
+    }
+    
 }
 
+@media screen and (max-width: 1536px){
+    
+    
+    .container-form{
+        width: 50%;
+    }
+    .form{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1064px) {
+    
+    .container-form{
+        width: 90%;
+        height: auto;
+    }
+    .input-group{
+        flex-direction: column;
+        overflow-y: scroll;
+        flex-wrap: nowrap;
+        max-height: 10rem;
+        padding-right: 5rem;
+    }
+    .gender-inputs{
+        margin-top: 2rem;
+    }
+    .gender-group{
+        flex-direction: column;
+    }
+    
+}
