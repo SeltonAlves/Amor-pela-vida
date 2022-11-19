@@ -96,10 +96,10 @@ nav {
 }
 
 
-#foto{
+#foto-carrosel{
     height: 40vh;
-    width: 100vw;
-    background-image: url(../images/pexels-roberto-nickson-2775196\ \(1\).jpg);
+    width: 100%;
+    background-image: url(../images/pexels-riccardo-bertolo-4245826.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -109,7 +109,7 @@ nav {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 30%;
+    height: 30vh;
     width: 100vw;
     text-align: center;
     padding: 15px;

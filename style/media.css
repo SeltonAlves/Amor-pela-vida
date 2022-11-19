@@ -92,3 +92,36 @@
     }
     
 }
+
+
+@media screen and (min-width: 768px) and (max-width:992px) {
+    
+    section#login{
+        width:90% ;
+        height: 290px;
+    }
+    div#foto{
+        float: left;
+        width: 40%;
+        height: 100%;
+    }
+    div#formulario{
+        float: right;
+        width: 60%;
+    }
+}
+@media screen and (min-width:992px) {
+    section#login{
+        width:960px;
+        height: 360px;
+    }
+    div#foto{
+        float:right;
+        width: 40%;
+        height: 100%;
+    }
+    div#formulario{
+        float: left;
+        width: 60%;
+    }
+}
