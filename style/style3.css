@@ -43,11 +43,13 @@ nav {
 .nav-list {
     list-style: none;
     display: flex;
+    z-index: 99;
 }
 
 .nav-list li {
     letter-spacing: 3px;
     margin-left: 32px;
+    z-index: 99;
 }
 
 .mobile-menu {
